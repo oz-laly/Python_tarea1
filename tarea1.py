@@ -39,6 +39,7 @@ while True:
     print("1: Inrgresar puntuacion y comentario")
     print("2: Comprueba los resultados obtenidos hasta ahora")
     print("3: Finalizar")
+
     num= int(input("Ingrese el numero deseado:"))
     if num == 1:
         proceso_1()
@@ -46,5 +47,6 @@ while True:
         proceso_2()
     elif num == 3:
         proceso_3()
+        break
     else:
-        print("Porfavor, introduzca un numero del 1 al 3")   
+        print("Introduzca un numero del 1 al 3")
